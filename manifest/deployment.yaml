@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world-container
-        image: harbor.vmw.local/library/hello:latest
+        image: harbor.vmw.local/library/hello@sha256:328942176f5f6e0612de4c64a313e2c00020edf949f85c123aec50a991005e57
         ports:
         - containerPort: 8080  # Flask uygulamasının çalıştığı port
 
