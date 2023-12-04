@@ -4,6 +4,6 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-#images:
-#- name: harbor.vmw.local/library/hello
-#  newTag: df322a55c16c024aeefaa7ba2cb37cdc92a553194935970291a88942337aa31d
+images:
+- name: harbor.vmw.local/library/hello:latest
+  Digest: df322a55c16c024aeefaa7ba2cb37cdc92a553194935970291a88942337aa31d
