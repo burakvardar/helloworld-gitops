@@ -6,4 +6,4 @@ resources:
   - service.yaml
 images:
 - name: harbor.vmw.local/library/hello:latest
-  Digest: df322a55c16c024aeefaa7ba2cb37cdc92a553194935970291a88942337aa31d
+  Digest: f0d456821eeac969db985b8805ae8feaa69d0953ac3240decb7e918c621b4efa
