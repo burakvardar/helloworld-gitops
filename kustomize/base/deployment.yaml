@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: harbor.vmw.local/library/hello
+        image: harbor.vmw.local/library/hello:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080  # Flask uygulamasının çalıştığı port
