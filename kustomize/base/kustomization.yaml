@@ -4,6 +4,6 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-images:
-- name: harbor.vmw.local/library/hello@sha256:f0d456821eeac969db985b8805ae8feaa69d0953ac3240decb7e918c621b4efa
-  Digest: f0d456821eeac969db985b8805ae8feaa69d0953ac3240decb7e918c621b4efa
+#images:
+#- name: harbor.vmw.local/library/hello@sha256:f0d456821eeac969db985b8805ae8feaa69d0953ac3240decb7e918c621b4efa
+#  Digest: f0d456821eeac969db985b8805ae8feaa69d0953ac3240decb7e918c621b4efa
