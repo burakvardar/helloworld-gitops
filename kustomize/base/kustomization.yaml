@@ -5,5 +5,5 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-- name: harbor.vmw.local/library/hello@sha256:31b3e7ce7af5cc3b14230a4d7800456c46e9480e97b48d082f8b5010a408c2d7
-  Digest: sha256:31b3e7ce7af5cc3b14230a4d7800456c46e9480e97b48d082f8b5010a408c2d7
+- name: 'harbor.vmw.local/library/hello@sha256:31b3e7ce7af5cc3b14230a4d7800456c46e9480e97b48d082f8b5010a408c2d7'
+  Digest: 'sha256:31b3e7ce7af5cc3b14230a4d7800456c46e9480e97b48d082f8b5010a408c2d7'
